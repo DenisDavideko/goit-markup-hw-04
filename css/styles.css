@@ -155,14 +155,20 @@ html{
 }
 .footer{
   background: #2f303a;
-  padding: 60px 15px;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
 .container-contacts {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+
+  padding-right: 0px;
+  margin-right:auto;
+ 
 }
 
 .address-map {
@@ -221,17 +227,52 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-outline:  1px solid #2fd474;
-padding-bottom: 30px;
-display: flex;
+padding-bottom: 20px;
 }
-
-.container-social-footer{
-  width: 240px;
-  display: block;
+.footer-social-item{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline:  1px solid #2fd474;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  margin-right: 800px;
- margin-bottom: 100px;
+}
+.footer-social-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-item+.footer-social-item{
+  margin-left: 10px;
+}
+/*.footer-social-icon{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}*/
+/*.footer-social-link{
+  /*display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}*/
+.container-social-footer{
+  /*width: 206px;*/
+  height: 80px;
+  margin-left: 70px;
+  margin-right:auto;
+
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  
+  
  
 }
 

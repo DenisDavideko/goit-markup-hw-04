@@ -52,32 +52,28 @@ html{
 }
 
 .logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
-  word-spacing: -7px;
   margin-right: 93px;
-  
 }
 
 .logo-contacts {
   width: 145px;
-  font-family: "Raleway", "sans-serif";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  word-spacing: -7px;
   margin-bottom: 20px;
   display: flex;
   
 }
-
 
 .logo-studio-bleck {
   color: #212121;
@@ -126,10 +122,7 @@ html{
 
 /* ------------------ contacts----------------*/
 
-
-
 .contacts {
-  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -137,21 +130,11 @@ html{
   cursor: pointer;
   margin-left: auto;
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .mail-icon,.tel-icon{
-  display:flex;
-  align-items: center;
-  cursor: pointer;
   fill: #757575;
   margin-right: 10px;
   margin-left: 30px;
-}
-
-.mail-tel-cont{
-  display: flex;
-  align-items: center;
 }
 .mail-tel-cont .link:hover{
   color:#2196f3;
@@ -165,14 +148,14 @@ html{
   padding-bottom: 32px;
 }
 .mail-tel-cont .link{
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 .mail-mail-cont .link{
-  color: #757575;
-}
-.mail-mail-cont{
   display: flex;
   align-items: center;
+  color: #757575;
 }
 .mail-mail-cont .link:hover{
   color:#2196f3;
@@ -185,15 +168,12 @@ html{
 .footer{
   background: #2f303a;
   padding: 60px 0;
-  
 }
 
 .container-contacts {
   display: flex;
   flex-direction: column;
-  padding-right: 0px;
-  margin-right:auto;
- 
+  margin-right: 70px;
 }
 
 .address-map {
@@ -244,17 +224,17 @@ html{
   color: #2196f3;
 }
 .social-footer{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 20px;
-}
-.footer-social-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  }
+.footer-social-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -262,7 +242,7 @@ padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  
 }
 .footer-social-list{
   display: flex;
@@ -275,19 +255,12 @@ padding-bottom: 20px;
 
 .footer-contacts{
   display:flex;
+  align-items: baseline
 }
-.container-social-footer{
-  height: 80px;
-  margin-right: 728px;
-  margin-top: 10px;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 40px;
-}
+
 .footer-social-item:hover{
   background-color: #2196F3;
+  border-radius: 50%;
  
 }
 .footer-social-icon{
@@ -301,8 +274,9 @@ padding-bottom: 20px;
 /* fill="#afb1b8" style="fill: var(--color1, #afb1b8)" */
 /*-------------------Слоган / Кнопка заказать----*/
 
-.background-slogan{
-  *background: #C4C4C4;
+.section-slogan{
+  padding: 200px 0;
+  background: #C4C4C4;
   background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   url(../images/Img-background1.jpg);
   background-repeat: no-repeat;
@@ -310,13 +284,7 @@ padding-bottom: 20px;
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  height: 600px;
-  outline:  1px solid #2fd474;
-}
-
-.section-slogan{
-  padding: 200px 0;
-  /*background: #2F303A;*/
+  background-color: #2F303A;
 }
 
 .slogan {
@@ -336,7 +304,7 @@ padding-bottom: 20px;
   width: 200px;
   padding : 10px 0px;
   margin: 0 auto;
-  font-family: "Roboto", "sans-serif";
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -364,17 +332,16 @@ padding-bottom: 20px;
 
 .advantages{
   display: flex;
-
 }
+
 .advantages-list{
   width: 270px;
   margin-right: 30px; 
-  
 }
 .advantages-list:last-child{
   margin-right: 0px
-
 }
+
 .advantages-name {
   font-style: normal;
   font-weight: 700;
@@ -394,7 +361,7 @@ padding-bottom: 20px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.advantages-item-logo{
+.advantages-list-logo{
   display: flex;
   width: 270px;
   height: 120px;
@@ -438,7 +405,6 @@ padding-bottom: 20px;
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .team-member{
@@ -493,16 +459,12 @@ padding-bottom: 20px;
 .team-social-item+.team-social-item{
   margin-left: 10px;
 }
-.team-social-item{
+.team-social-link {
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-
 }
 
 .team-social-icon{
@@ -510,6 +472,7 @@ padding-bottom: 20px;
 }
 .team-social-item:hover{
   background-color: #2196F3;
+  border-radius: 50%;
   
 }
 
@@ -534,13 +497,17 @@ padding-bottom: 20px;
   align-items: center;
   justify-content: center;
 }
-.brand-item{ 
+.brand-link{ 
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-item{
   width: 170px;
   height: 92px;
   margin-right: 30px;
   border: 1px solid #AFB1B8;
-  padding: 16px 32px;
-  cursor: pointer;
 }
 .brand-icon{
   fill: #AFB1B8;
@@ -577,7 +544,7 @@ padding-bottom: 20px;
   margin-right: 0px;
 }
 .button{
-  font-family: "Roboto", "sans-serif";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -596,25 +563,26 @@ padding-bottom: 20px;
 
 .button.current {
   background: #2196f3;
+  color:#ffffff; ;
 }
 
 .button:hover {
   background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  border-radius: 4px;
 }
 .button:focus {
   background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  border-radius: 4px;
 }
 .button:active{
   background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  border-radius: 4px;
 }
 
  /*outline:  1px solid #2fd474;*/
@@ -627,7 +595,6 @@ border-radius: 4px;
 }
 
 .projects-name {
-  font-family: "Roboto", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
